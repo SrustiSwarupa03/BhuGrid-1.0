@@ -1,4 +1,4 @@
-**# BhuGrid**
+**BhuGrid**
 
 **The single secure vault for every sacred legacy across Odisha.**
 
