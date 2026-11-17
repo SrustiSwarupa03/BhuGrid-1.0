@@ -2,7 +2,6 @@
 
 **Project:** BhuGrid 1.0  
 **Scope:** Controlled Prototype / DEMO  
-**Updated:** 17 November 2026  
 **Problem Statement:** PS-143
 
 > **BhuGrid — The single secure vault for every sacred legacy across Odisha.**
