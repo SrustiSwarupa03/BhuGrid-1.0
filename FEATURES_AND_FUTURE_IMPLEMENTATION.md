@@ -127,11 +127,27 @@ The Smart Trip Planner is a supplementary stakeholder-support capability, not th
 
 ### 3.4 Deterministic Review Prioritization
 
-BhuGrid also demonstrates rule-based review-priority indicators.
+BhuGrid uses a rule-based scoring mechanism to help administrators prioritize inspection records for review. Each applicable condition contributes a predefined weight to the total priority score.
 
-These indicators are separate from the Groq-powered AI Administrative Review feature.
+| Condition | Weight |
+|---|---:|
+| Unverified boundary | +15 |
+| Never verified or more than 365 days | +20 |
+| Inspector possible-change observation | +25 |
+| Weak evidence (once in total) | +10 |
+| Unresolved prior issues (up to 3) | +5 each (max +15) |
+| Heritage/high-value flag | +10 |
 
-Priority scores support administrative triage within the DEMO workflow. They are not trained encroachment predictions, official risk classifications or legal findings.
+**Priority Score = Sum of all applicable condition weights**
+
+**Priority Classification:**
+
+- **0–24:** Routine
+- **25–49:** Watch
+- **50–74:** Priority Review
+- **75–100:** Urgent Review
+
+This deterministic scoring mechanism is separate from Groq-powered AI Administrative Review. It supports administrative triage and does not constitute an automated encroachment prediction or legal finding.
 
 ## 4. User Roles and Security Model
 
@@ -139,11 +155,11 @@ BhuGrid uses authenticated and role-specific workflows to separate institutional
 
 | Role | Prototype responsibility |
 |---|---|
-| Local Bodies | View assigned institutional information and permitted linked property and asset records |
-| Trustees / Institutional Management | Access authorized records associated with assigned institutions |
-| Government Agencies | View institution-specific information permitted by approved assignments |
-| Inspector | Submit authorized field observations, location information and supporting evidence |
 | Administrator | Perform authorized review activities and permitted administrative decisions |
+| Inspector | Submit authorized field observations, location information and supporting evidence |
+| Government Agencies | View institution-specific information permitted by approved assignments |
+| Trustees / Institutional Management | Access authorized records associated with assigned institutions |
+| Local Bodies | View assigned institutional information and permitted linked property and asset records |
 
 ### 4.1 Authentication and Authorization
 
@@ -269,11 +285,11 @@ Detailed dataset attribution, collection methods, licensing and limitations are 
 
 ## 8. Prototype Workflows
 
-### 8.1 Institutional Stakeholder Workflow
+### 8.1 Administrator Workflow
 
-`Administrator-provisioned account → authenticated sign-in → authorized institution selection → permitted property and asset viewing → stakeholder-support features`
+`Authorized Administrator sign-in → inspection record review → priority assessment → optional AI advisory review → human administrative decision → review history`
 
-Stakeholders are limited to records associated with their approved institution assignments.
+Administrative decisions remain the responsibility of authorized human users.
 
 ### 8.2 Inspector Workflow
 
@@ -281,18 +297,18 @@ Stakeholders are limited to records associated with their approved institution a
 
 Inspection records support administrative review and follow-up.
 
-### 8.3 Administrator Workflow
+### 8.3  Institutional Stakeholder Workflow
 
-`Authorized Administrator sign-in → inspection record review → priority assessment → optional AI advisory review → human administrative decision → review history`
+`Administrator-provisioned account → authenticated sign-in → authorized institution selection → permitted property and asset viewing → stakeholder-support features`
 
-Administrative decisions remain the responsibility of authorized human users.
+Stakeholders are limited to records associated with their approved institution assignments.
 
 ### 8.4 Supporting Geographic and AI Workflows
 
-- **Nearby Essentials:** Retrieve external nearby-facility information for institutional geographic context.
-- **Smart Trip Planner:** Generate advisory visit-planning suggestions.
 - **AI Administrative Review:** Generate preliminary inspection-related analysis for authorized Administrators.
-
+- **Smart Trip Planner:** Generate advisory visit-planning suggestions.
+- **Nearby Essentials:** Retrieve external nearby-facility information for institutional geographic context.
+  
 All workflows operate within the controlled prototype and available data scope.
 
 ## 9. Future Implementation Roadmap
@@ -349,19 +365,10 @@ The prototype does not provide:
 
 BhuGrid 1.0 is a controlled educational and competition-oriented prototype.
 
-- The 239 geographic features are provisional and unverified.
-- The three Supabase DEMO institutions and their linked property and asset records are fictional.
-- Public geographic information may be incomplete, outdated or inaccurate.
-- No official cadastral boundaries or legally authenticated ownership database are integrated.
-- Stakeholder authorization has passed the documented prototype tests, but comprehensive independent security validation has not been performed.
-- Nearby Essentials depends on externally sourced Geoapify information.
-- Smart Trip Planner generates suggestions that require independent factual verification.
-- Groq-powered Administrative Review provides advisory output only.
-- Deterministic prioritization indicators are not official risk assessments.
-- No trained real-world encroachment detection or operational satellite monitoring is claimed.
-- No government endorsement, statewide institutional deployment or production certification is claimed.
-- Real-world deployment requires authoritative data, institutional approvals, governance and further security and operational validation.
-
+- Geographic data is provisional, linked institutional records are fictional DEMO data, and official cadastral or ownership verification is not integrated.
+- AI outputs, priority scores and externally sourced facility information require human verification; automated encroachment detection is not claimed.
+- Comprehensive independent security certification and statewide deployment are not established; real-world adoption requires official data, approvals and further validation.
+  
 ## 11. Related Public Documentation
 
 ### Core Documentation
