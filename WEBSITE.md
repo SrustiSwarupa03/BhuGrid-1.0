@@ -1,161 +1,174 @@
 # BhuGrid 1.0 — Project Showcase Website
 
-## 1. Access and Project Links
+**Project:** BhuGrid 1.0  
+**Problem Statement:** PS-143  
+**Website Type:** Public Informational and Project Presentation Website  
 
-**Live public showcase website:** https://bhugrid-website.onrender.com/
+## 1. Official Showcase Website
 
-**Website source (original project):** https://github.com/SrustiSwarupa03/BhuGrid/tree/website
+**Website Link:**
 
-*Access to the source repository depends on repository permissions.*
+https://bhugrid-website.onrender.com/
 
-**Functional GIS web application:** https://bhugrid-web-app.onrender.com/
+The BhuGrid 1.0 Showcase Website is a public-facing informational platform developed to present the project's objectives, proposed solution, major features, technical approach and development progress.
 
-**Public documentation repository:** https://github.com/SrustiSwarupa03/BhuGrid-1.0
+The website introduces BhuGrid as a **GIS-based Religious Institution and Asset Management Platform** designed to support the organization, monitoring and preservation of religious institutions and their associated properties and assets across Odisha.
 
-The showcase website and functional GIS application serve different purposes and should be described separately.
+It serves as the project's primary public information and presentation platform.
 
-## 2. Purpose
+## 2. Purpose of the Website
 
-The BhuGrid showcase website is the project's **public-facing explanatory and presentation platform**.
+The showcase website is designed to:
 
-Its purpose is to communicate the problem addressed by BhuGrid, its proposed solution, intended stakeholders, principal capabilities, technical approach and controlled prototype scope.
+- Introduce BhuGrid 1.0 and its vision.
+- Explain the PS-143 problem statement and existing institutional management challenges.
+- Present the proposed GIS-based solution.
+- Highlight the platform's major capabilities and innovations.
+- Explain the intended user roles and institutional workflows.
+- Provide visual demonstrations and project guidance.
+- Communicate the current prototype status and future development direction.
 
-The website introduces BhuGrid as a GIS-based Religious Institution and Asset Management Platform designed to support the organization and geographic visualization of religious institutions and their associated properties and assets.
+The website is informational and does not function as the secured institutional records database or administrative management system.
 
-It also directs visitors to the functional GIS application and relevant project documentation.
+## 3. Website Sections and Content
 
-The showcase website is not the operational database or the secured institutional management application. Actual application workflows and access-controlled functions are provided through the functional web application.
+The showcase website presents BhuGrid through the following major sections.
 
-## 3. Intended Audience and Project Positioning
-
-The website should communicate BhuGrid's institutional purpose and intended stakeholder groups:
-
-1. **Local Bodies** — access to relevant institutional information and associated property and asset records.
-2. **Trustees / Institutional Management** — organization and review of information relating to their assigned institutions.
-3. **Government Agencies** — access to authorized institutional information for relevant administrative and governance purposes.
-
-The platform also includes Inspector and Administrator workflows within its broader operational design.
-
-The showcase must explain that access to operational information is intended to be restricted to administrator-authorized users and their permitted institutional assignments.
-
-## 4. Website Content and Implementation
-
-The original `website` branch contains a `showcase/` directory with HTML pages, stylesheets and visual assets.
-
-The documented page structure includes:
-
-| Page | Documented purpose |
+| Section | Description |
 |---|---|
-| `index.html` | Main project introduction and navigation |
-| `about.html` | Project background and overview |
-| `problem.html` | Problem statement and challenges |
-| `solution.html` | Proposed BhuGrid solution |
-| `features.html` | Platform capabilities and features |
-| `map.html` | Geographic and GIS-related presentation |
-| `tourist.html` | Earlier tourist-oriented information |
-| `admin.html` | Administrative functionality and presentation |
-| `handbook.html` | User guidance and documentation |
+| Home | Project introduction, branding, tagline and overview |
+| About | Project background, objectives and institutional purpose |
+| Problem Statement | Existing challenges in religious institution and asset management |
+| Proposed Solution | GIS-based approach to institutional information management |
+| Features | Overview of the platform's principal capabilities |
+| Interfaces | Explanation of stakeholder, Inspector and Administrator workspaces |
+| Novelty | Innovative aspects and integrated platform approach |
+| GIS Map | Geographic visualization and mapping-related information |
+| Team | Team members and project contributions |
+| Handbook | User guidance and explanations of application workflows |
 
-The source structure reflects the earlier showcase organization. As the project transitions towards an institutional stakeholder model, page content, navigation and terminology should be reviewed and updated accordingly.
+The website is intended to communicate the project clearly to evaluators, institutional stakeholders and interested visitors.
 
-In particular:
+## 4. Institutional Stakeholders and User Roles
 
-- The former tourist-oriented presentation should not define the platform's primary purpose.
-- Institutional stakeholder use cases should receive priority.
-- Property, asset, inspection and administrative workflows should be explained accurately.
-- The showcase should distinguish proposed functionality from capabilities demonstrated in the current prototype.
-- Links to the functional GIS application and public documentation should remain clear and accessible.
+The showcase website presents BhuGrid's institutional focus through three stakeholder categories:
 
-The homepage source includes a link to the functional web application.
+1. **Local Bodies:** Authorized access to relevant institution-linked information for local coordination and management.
+2. **Trustees / Institutional Management:** Access to assigned institutions and their associated property and asset information.
+3. **Government Agencies:** Authorized institutional information for relevant administrative and monitoring activities.
 
-## 5. Presentation and Credibility Guidelines
+The broader BhuGrid platform also includes:
 
-The showcase website and its visual content should follow these guidelines:
+- **Inspector:** Field observations, location capture and inspection evidence submission.
+- **Administrator:** Institutional record review, administrative decisions and monitoring.
 
-### 5.1 Accurate Project Description
+The former tourist-oriented interface has been repositioned as the **Institutional Stakeholder Portal**.
 
-- Present BhuGrid 1.0 as a **GIS-based Religious Institution and Asset Management Platform**.
-- Explain its focus on geographic institution information, linked property and asset records, inspection workflows and administrative review.
-- Describe the Institutional Stakeholder Portal as the redesigned direction of the former Public/Tourist interface.
-- Identify Local Bodies, Trustees / Institutional Management and Government Agencies as the intended stakeholder groups.
+The stakeholder portal's reported frontend and backend verification was completed within the controlled prototype scope on 16 November 2026.
 
-### 5.2 Geographic Data Transparency
+The showcase website explains these workflows; it does not independently provide their authenticated operational functionality.
 
-- Clearly identify the current inventory of 239 geographic features as unverified GIS candidates.
-- Distinguish the 72 Cuttack, 60 Puri and 107 Khordha provisional or preliminary candidates.
-- Keep the three fictional Supabase DEMO institutions separate from the geographic inventory.
-- Do not describe community-sourced OpenStreetMap information as an officially certified institutional register.
-- Include appropriate source attribution and licensing information where geographic data is displayed.
+## 5. Presentation of Major Platform Features
 
-### 5.3 Property and Asset Information
+The website explains the following BhuGrid capabilities:
 
-- Describe fictional property and asset records as controlled DEMO information.
-- Do not portray illustrative records as actual government land or property records.
-- Do not imply that mapped locations establish ownership, legal boundaries, heritage status or property rights.
-- Explain that real institutional records require authorized sources and verification.
+- **Interactive GIS Mapping:** Geographic visualization and discovery of religious institutions.
+- **Institutional Record Management:** Organization of institution-linked property and asset information.
+- **Inspector Workflows:** Field inspection, observation recording and supporting evidence.
+- **Administrative Review:** Human-controlled assessment, follow-up and review history.
+- **AI Administrative Review:** Advisory AI-generated summaries and recommendations to support authorized administrators.
+- **Nearby Essentials Finder:** Geographic context about nearby hospitals, restaurants and petrol pumps through Geoapify.
+- **Smart Trip Planner:** AI-assisted visit-planning suggestions that help stakeholders understand potential visitor itineraries and tourism-related opportunities.
+- **Institutional Stakeholder Portal:** Administrator-authorized access to assigned institutional records.
 
-### 5.4 AI and External Services
+Nearby Essentials and Smart Trip Planner are presented as **supplementary institutional stakeholder-support features**, not as the primary purpose of BhuGrid.
 
-- Present AI-assisted administrative review as preliminary and advisory.
-- Make clear that administrative decisions require authorized human review.
-- Describe Geoapify as the integrated provider for Nearby Essentials retrieval.
-- Do not imply that Geoapify supplies BhuGrid's religious-institution inventory.
-- Do not claim automated, legally valid encroachment detection or verified boundary-change identification.
-- Do not publish API credentials or private integration configuration.
+Nearby facility details and AI-generated travel suggestions remain externally sourced or advisory and require independent verification.
 
-### 5.5 Prototype Status
+## 6. Handbook, Visual Demonstrations and Documentation
 
-- Clearly identify BhuGrid 1.0 as a controlled educational and competition prototype.
-- Avoid claims of government endorsement, official land-record certification or statewide operational deployment.
-- Do not present planned roadmap capabilities as completed features.
-- Ensure screenshots, videos and demonstrations reflect the current application direction.
+The showcase website includes project-oriented guidance and presentation material to help visitors understand BhuGrid.
 
-## 6. Relationship Between the Showcase Website and Functional Application
+### 6.1 Handbook
 
-| Aspect | Showcase Website | Functional GIS Web Application |
+The handbook provides user-facing explanations of the platform's purpose, interfaces and available workflows.
+
+It is intended to support understanding of the functional prototype without requiring access to its private implementation details.
+
+### 6.2 Visual Demonstrations
+
+The website presents visual explanations of the project through elements such as:
+
+- GIS-related illustrations and map presentations.
+- Interface previews.
+- Feature descriptions.
+- Workflow explanations.
+- Project diagrams and visual assets.
+
+Screenshots and demonstration materials should represent the accepted prototype accurately.
+
+### 6.3 Project Documentation
+
+The website supports public understanding of:
+
+- Project objectives and problem context.
+- Proposed solution and system capabilities.
+- Stakeholder responsibilities.
+- Technology and GIS concepts.
+- Prototype limitations.
+- Future development possibilities.
+
+The showcase website complements the project's separate technical documentation.
+
+## 7. Showcase Website versus Functional Web Application
+
+The showcase website and functional web application serve distinct purposes.
+
+| Aspect | Showcase Website | Functional Web Application |
 |---|---|---|
-| Primary purpose | Project explanation and presentation | GIS-based institutional information and management workflows |
-| Main audience | Public visitors, evaluators and project stakeholders | Administrator-authorized users and permitted institutional stakeholders |
-| Content | Project overview, problem, solution, features and guidance | Geographic information, linked records, inspections and administrative functions |
-| Access | Public-facing explanatory content | Controlled authentication and authorization |
-| Data handling | Presentation-oriented information | Application records and associated operational workflows |
-| Main role | Communicate the project | Demonstrate and support the platform's functional capabilities |
+| Purpose | Project explanation and presentation | Interactive GIS and institutional management |
+| Audience | Public visitors and evaluators | Authorized institutional users |
+| Access | Public informational access | Authentication for restricted workflows |
+| Content | Project overview, features, visuals and handbook | GIS records, linked assets, inspections and reviews |
+| Main role | Communicate the project | Demonstrate functional workflows |
 
-The showcase website complements the functional application. It does not replace authentication, database access controls or secured institutional workflows.
+The showcase website is not responsible for institutional authentication, database operations, inspection submission or administrative decisions.
 
-## 7. Maintenance and Future Improvements
+These activities belong to the separate functional application.
 
-Future website maintenance should focus on:
+## 8. Accuracy and Prototype Limitations
 
-- Updating the homepage and project overview to reflect the institutional GIS and asset-management direction.
-- Revising earlier tourist-oriented content and navigation where appropriate.
-- Highlighting Local Bodies, Trustees / Institutional Management and Government Agencies as intended stakeholders.
-- Explaining Inspector and Administrator workflows accurately.
-- Keeping feature descriptions consistent with the deployed functional application.
-- Updating geographic dataset counts and verification labels when the underlying data changes.
-- Maintaining appropriate attribution and source references.
-- Reviewing screenshots, diagrams, visual assets and user guidance after significant application changes.
-- Checking application and documentation links periodically.
-- Avoiding the publication of private implementation details, credentials or sensitive operational information.
+The website should consistently communicate the documented BhuGrid 1.0 prototype scope.
 
-## 8. Maintainer Responsibility
+- The project currently documents **239 provisional and unverified GIS features** across Cuttack, Puri and Khordha.
+- Three separate fictional Supabase DEMO institutions support application workflow demonstrations.
+- Public geographic features are not officially verified institutional or property records.
+- Fictional DEMO property and asset records are not legal ownership evidence.
+- AI-generated administrative recommendations are advisory.
+- Geoapify nearby-place results require independent verification.
+- Smart Trip Planner suggestions are not authoritative travel information.
+- Automatic encroachment detection and legally verified boundary determination are not implemented.
+- BhuGrid 1.0 is not an officially deployed statewide government system.
 
-**Maintainer area:** Project showcase website, visual content, presentation materials and user-facing documentation.
+The showcase website must distinguish implemented prototype functionality from planned future enhancements.
 
-**Team contribution:** Smruti.
+## 9. Website Development and Maintenance
 
-Website content and presentation should remain consistent with the approved BhuGrid 1.0 project scope and the latest functional application changes.
+**Website Development and Presentation:** Smruti Rekha Behera.
 
-## 9. Related Public Documentation
+The website work includes:
 
-- [Features, Novelty, Roles, Security & Future Implementation](FEATURES_AND_FUTURE_IMPLEMENTATION.md)
-- [Datasets and Citations](DATASETS_AND_CITATIONS.md)
-- [Web Application](WEB_APP.md)
+- Public-facing page development and presentation.
+- Project branding and visual content.
+- Responsive layout improvements.
+- Feature and interface explanations.
+- Handbook and user-facing documentation.
+- Maintaining consistency with the accepted BhuGrid project direction.
 
-**Project links:**
+Future maintenance should prioritize accurate feature descriptions, accessible presentation, updated visual demonstrations and alignment with the functional prototype.
 
-- Showcase Website: https://bhugrid-website.onrender.com/
-- Functional GIS Web Application: https://bhugrid-web-app.onrender.com/
-- Public Documentation Repository: https://github.com/SrustiSwarupa03/BhuGrid-1.0
+---
 
-**Documentation note:** The public documentation repository is intended for project documentation. It does not publish or license the private application source code, backend implementation, credentials or private deployment configuration.
+**Documentation Notice:** The BhuGrid-1.0 public documentation repository provides information about the project and its showcase website. It is not an open-source software repository. The original application source code, private backend implementation, credentials and deployment configuration are not publicly released through this repository.
+
+**Final Statement:** The BhuGrid Showcase Website communicates the vision, institutional purpose, features and controlled prototype capabilities of BhuGrid 1.0. It is an informational presentation platform, separate from the secured functional GIS application.
