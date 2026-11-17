@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="BhuGrid Logo.png"
+       alt="BhuGrid Official Logo"
+       width="130">
+</p>
+<p align="center">
+  <img src="BhuGrid Word.png"
+       alt="The single secure vault for every sacred legacy across Odisha."
+       width="380">
+</p>
+
 # BhuGrid 1.0
 
 **The single secure vault for every sacred legacy across Odisha.**
