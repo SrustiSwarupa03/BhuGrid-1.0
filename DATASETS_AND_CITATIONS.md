@@ -164,9 +164,9 @@ Fictional DEMO records must not be presented as actual government-registered ins
 
 The Institutional Stakeholder Portal supports three stakeholder categories:
 
-1. Local Bodies.
+1. Government Agencies.
 2. Trustees / Institutional Management.
-3. Government Agencies.
+3. Local Bodies.
 
 The documented prototype uses administrator-approved memberships and institution-specific assignments to restrict access to permitted institutional records.
 
