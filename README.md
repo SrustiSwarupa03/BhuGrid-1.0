@@ -62,6 +62,14 @@ BhuGrid 1.0 demonstrates this approach through a controlled prototype. It does n
 
 ## 3. User Groups
 
+### Administrators
+
+Authorized Administrators manage relevant review workflows, inspect submitted information, maintain administrative records and make human-controlled decisions.
+
+### Inspectors
+
+Authorized Inspectors can participate in field inspection workflows, document observations and submit inspection information for administrative review.
+
 ### Institutional Stakeholders
 
 The Institutional Stakeholder Portal supports three categories:
@@ -71,14 +79,6 @@ The Institutional Stakeholder Portal supports three categories:
 3. **Government Agencies** — Access to assigned institutional records for authorized administrative purposes.
 
 Stakeholder access is restricted to administrator-provisioned, approved accounts and assigned institutional records.
-
-### Inspectors
-
-Authorized Inspectors can participate in field inspection workflows, document observations and submit inspection information for administrative review.
-
-### Administrators
-
-Authorized Administrators manage relevant review workflows, inspect submitted information, maintain administrative records and make human-controlled decisions.
 
 ## 4. Major Prototype Features
 
@@ -237,27 +237,16 @@ This repository is intended for project documentation and information only.
 - [Development History](docs/CHANGELOG.md)
 - [Design System and Branding](docs/DESIGN_SYSTEM.md)
 
-*Note: The detailed documentation links should be retained only after the corresponding files have been created and reviewed.*
 
 ## 10. Project Status and Limitations
 
 **Project status: BhuGrid 1.0 — Controlled DEMO Prototype**
 
 The prototype demonstrates implemented GIS, institutional record management, inspection, administrative and stakeholder-support workflows.
+- Geographic institution data remains provisional, while linked property and asset records are fictional DEMO data without official cadastral or legal verification.
 
-Current limitations include:
-
-- Geographic institution features are provisional and unverified.
-- Institution-linked property and asset records are fictional DEMO data.
-- No official cadastral survey or legally verified ownership database is integrated.
-- AI-generated recommendations are advisory.
-- Nearby facilities and suggested itineraries depend on external services and may be incomplete or inaccurate.
-- The prototype does not claim automatic encroachment detection.
-- No comprehensive security audit or penetration test has been performed.
-- Statewide operational deployment and institutional adoption have not been established.
-
-Future improvements may include official dataset partnerships, stronger data validation, expanded analytics, regional language support, offline inspection capabilities and additional authorized institutional workflows.
-
+- AI outputs are advisory, external service information requires verification, and automated encroachment detection, comprehensive security certification and statewide operational deployment are not established.
+  
 ## 11. Team Contributions
 
 | Team member | Primary contribution |
