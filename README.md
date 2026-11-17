@@ -27,7 +27,7 @@ The platform connects geographic information with institution-linked property an
 >
 > The repository is intended to explain the project's objectives, architecture, features, datasets, development status and limitations, and to provide access to the deployed initial prototype and its accompanying showcase website.
 >
-> **Explore the initial web-application prototype:** https://bhugrid-web-app.onrender.com/
+> **Explore the initial web-application prototype:** https://bhugrid-web-app.onrender.com/ For login credentials, check the synopsis page of the supporting document submitted at the submission portal of OSFIC 2026 Portal. 
 >
 > **Visit the BhuGrid showcase website:** https://bhugrid-website.onrender.com/
 >
