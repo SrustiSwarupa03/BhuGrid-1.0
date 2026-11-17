@@ -2,7 +2,6 @@
 
 **Project:** BhuGrid 1.0  
 **Problem Statement:** PS-143  
-**Last Updated:** 17 November 2026  
 **Release Status:** Controlled DEMO Prototype  
 **Document Type:** Public Web Application Documentation
 
