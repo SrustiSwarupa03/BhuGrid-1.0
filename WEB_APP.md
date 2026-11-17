@@ -38,34 +38,7 @@ These DEMO records are distinct from the public geographic inventory and do not 
 
 BhuGrid provides three principal role-specific interfaces.
 
-### 3.1 Institutional Stakeholder Portal
-
-The Institutional Stakeholder Portal serves three stakeholder categories:
-
-1. Local Bodies.
-2. Trustees / Institutional Management.
-3. Government Agencies.
-
-The portal provides authorized access to assigned institutions and their permitted linked property and asset records.
-
-**Implementation Status:** The redesigned stakeholder portal completed the reported frontend functional verification and backend authorization checks on 16 November 2026.
-
-The documented verification included administrator-approved access, assigned institution visibility, cross-institution restrictions and linked property/asset permissions.
-
-The frontend team reported **8/8 functional checks passed**, while the backend team confirmed the relevant authorization and institution-isolation checks.
-
-These results apply to the controlled prototype and do not constitute an independent production security audit.
-
-### 3.2 Inspector Interface
-
-The Inspector interface supports authorized field-oriented activities, including:
-
-- Institution-related inspection observations.
-- GPS-assisted or manually selected location information.
-- Supporting photographic evidence submission.
-- Inspection records for subsequent administrative review.
-
-### 3.3 Administrator Interface
+### 3.1 Administrator Interface
 
 The Administrator interface supports:
 
@@ -76,6 +49,25 @@ The Administrator interface supports:
 - Optional AI-assisted administrative review.
 
 Administrative decisions remain under authorized human control.
+
+### 3.2 Inspector Interface
+
+The Inspector interface supports authorized field-oriented activities, including:
+
+- Institution-related inspection observations.
+- GPS-assisted or manually selected location information.
+- Supporting photographic evidence submission.
+- Inspection records for subsequent administrative review.
+
+### 3.3 Institutional Stakeholder Portal
+
+The Institutional Stakeholder Portal serves three stakeholder categories:
+
+1. Government Agencies.
+2. Trustees / Institutional Management.
+3. Local Bodies.
+
+The portal provides authorized access to assigned institutions and their permitted linked property and asset records.
 
 ## 4. AI and External Service Features
 
