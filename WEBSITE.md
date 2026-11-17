@@ -46,6 +46,7 @@ The showcase website presents BhuGrid through the following major sections.
 | GIS Map | Geographic visualization and mapping-related information |
 | Team | Team members and project contributions |
 | Handbook | User guidance and explanations of application workflows |
+| Feedback | Allows website visitors to share feedback and suggestions for improving BhuGrid |
 
 The website is intended to communicate the project clearly to evaluators, institutional stakeholders and interested visitors.
 
@@ -59,9 +60,9 @@ The showcase website presents BhuGrid's institutional focus through three stakeh
 
 The broader BhuGrid platform also includes:
 
-- **Inspector:** Field observations, location capture and inspection evidence submission.
 - **Administrator:** Institutional record review, administrative decisions and monitoring.
-
+- **Inspector:** Field observations, location capture and inspection evidence submission.
+- 
 The former tourist-oriented interface has been repositioned as the **Institutional Stakeholder Portal**.
 
 The stakeholder portal's reported frontend and backend verification was completed within the controlled prototype scope on 16 November 2026.
